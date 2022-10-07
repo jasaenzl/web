@@ -1,11 +1,16 @@
 :root{
     --color1: #305060;
-    --color1s: #1d303a;
+    --color1s: #426c83;
     --color2: #613a3e;
-    --color2s: #42282b;
+    --color2s: rgb(145, 97, 102);
     --color3: #615f27;
     background-color: #050505;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
 
 html {
     font-family: 'Source Sans Pro', sans-serif;
@@ -14,18 +19,22 @@ html {
 }
 
 header{
+    font-family: 'Share Tech Mono', monospace;
     text-align: center;
     background-color: darkgrey;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
 }
 .main_title{
     font-size: 1.5rem;
     color: var(--color1);
     text-shadow: 3px 4px 4px var(--color1s);
-    
-    
+    padding: 0.5rem;
 }
 .botonera {
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
     align-self: center;
     text-align: center;
     margin:0.5rem;
@@ -39,8 +48,7 @@ header{
     transition-property: all;
     transition-duration: 0.2s, 0.2s;
     border-color: var(--color2s);
-    color: var(--color2s);
-    text-shadow: 3px 4px 4px var(--color1s);
+    text-shadow: 3px 4px 4px var(--color2s);
 }
 
 .bottom {
